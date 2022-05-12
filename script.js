@@ -63,7 +63,6 @@ $(document).ready(function () {
 });
 
 
-/*
 //! --- for inspect
 $(document).bind("contextmenu",function(e) {
   e.preventDefault();
@@ -74,4 +73,4 @@ $(document).bind("contextmenu",function(e) {
      if(e.which === 123){
         return false;
      }
- });*/
+ });
