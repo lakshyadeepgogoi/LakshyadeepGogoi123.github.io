@@ -29,7 +29,7 @@
         <li><a href="#about" class="menu-btn">About</a></li>
         <li><a href="#services" class="menu-btn">Services</a></li>
         <li><a href="#skills" class="menu-btn">Skills</a></li>
-        <li><a href="#teams" class="menu-btn">Teams</a></li>
+        <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
         <li><a href="#contact" class="menu-btn">Contact</a></li>
       </ul>
       <div class="menu-btn">
@@ -45,13 +45,13 @@
         <div class="text-1">Hello, my name is</div>
         <div class="text-2">Lakshyadeep Gogoi</div>
         <div class="text-3">And I'm a <span class="typing"></span></div>
-        <a href="#">Hire me</a>
+        <a href="#contact">Hire me</a>
       </div>
     </div>
   </section>
   <!--! about section start -->
   <section class="about" id="about">
-    <div class="max-width">
+    <div class="max-width">0
       <h2 class="title">About me</h2>
       <div class="about-content">
         <div class="column left">
@@ -62,14 +62,9 @@
             I'm Lakshyadeep and I'm a <span class="typing-2"></span>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel,
-            voluptates. Ratione iste libero dicta accusantium laborum, earum,
-            deserunt rem officia laboriosam eum est repudiandae id consectetur
-            odit! Accusantium, quo? Laudantium distinctio explicabo vitae
-            eaque aperiam quaerat autem quasi, libero minima error rem
-            accusantium earum fuga ea repellat maiores, consectetur vero
-            dignissimos incidunt mollitia neque deserunt velit! Quibusdam
-            quaerat ea cum!
+            Hello!<br>
+            I am a front-end web-developer. I have knowledge about designing and developing user-friendly websites.I have all qualities to create a high quality websites or improve existing websites .
+
           </p>
           <a href="#">Download CV</a>
         </div>
@@ -85,22 +80,22 @@
         <div class="card">
           <div class="box">
             <i class="fas fa-paint-brush"></i>
-            <div class="text">Web Design</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p>
+            <div class="text">Design</div>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p> -->
           </div>
         </div>
         <div class="card">
           <div class="box">
             <i class="fas fa-chart-line"></i>
-            <div class="text">Advertising</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p>
+            <div class="text">Website management</div>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p> -->
           </div>
         </div>
         <div class="card">
           <div class="box">
             <i class="fas fa-code"></i>
-            <div class="text">App Design</div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p>
+            <div class="text">web-development</div>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sit non, earum nam sequi recusandae!</p> -->
           </div>
         </div>
       </div>
@@ -117,11 +112,7 @@
       <div class="skills-content">
         <div class="column left">
           <div class="text">My creative skills & expriences.</div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, repellat, obcaecati deserunt mollitia,
-            eligendi sequi labore dolorem veniam magnam in inventore doloremque quae quidem aliquid modi! Sunt inventore
-            repellendus incidunt animi quae, et, porro iste adipisci recusandae aliquam accusantium, sapiente ut.
-            Tenetur blanditiis, dolorem eos eaque dolor assumenda possimus nemo, suscipit architecto nam eveniet odio
-            in. Vel nisi unde accusantium.</p>
+          <p>I have done different projects. I used Tailwind CSS with  ReactJs also,i have knowledge in programming language like c++ ,c.Now i am learning Back-end web-development. I have little bit expriences in front-end web-development.</p>
           <a href="#">Read more</a>
         </div>
         <div class="column right">
@@ -160,13 +151,20 @@
             </div>
             <div class="line mysql"></div>
           </div>
+          <div class="bars">
+            <div class="info">
+              <span>Tailwind CSS</span>
+              <span>88%</span>
+            </div>
+            <div class="line tailwind_css"></div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- !teams section start -->
-
+<!-- 
   <section class="teams" id="teams">
     <div class="max-width">
       <h2 class="title">My teams</h2>
@@ -208,7 +206,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- !contact section start -->
@@ -219,8 +217,8 @@
       <div class="contact-content">
         <div class="column left">
           <div class="text">Get in Touch</div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid illo sunt eos odit repellat illum
-            quis, eaque natus eius!</p>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid illo sunt eos odit repellat illum
+            quis, eaque natus eius!</p> -->
           <div class="icons">
             <div class="row">
               <i class="fas fa-user"></i>
@@ -255,6 +253,7 @@
           </div>
         </div>
         <div class="column right">
+          <form action="https://formspree.io/f/xeqnvgkd" method="POST">
           <div class="text">Message me</div>
           <form action="#">
             <div class="fields">
@@ -262,7 +261,7 @@
                 <input type="text" placeholder="Name" required>
               </div>
               <div class="field email">
-                <input type="email" placeholder="Email" required>
+                <input type="email" id="email" placeholder="Email" required>
               </div>
             </div>
             <div class="field">
@@ -288,6 +287,8 @@
 
 
   <script src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 </body>
 
 </html>

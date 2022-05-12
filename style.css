@@ -378,6 +378,9 @@ section .title::after {
 .skills-content .right .mysql::before{
   width: 68%;
 }
+.skills-content .right .tailwind_css::before{
+  width: 88%;
+}
 
 
 /* !teams style css start */
