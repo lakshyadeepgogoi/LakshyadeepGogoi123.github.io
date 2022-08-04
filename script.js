@@ -66,9 +66,11 @@ $(document).ready(function () {
 
 
 //! --- for inspect
+
 $(document).bind("contextmenu",function(e) {
   e.preventDefault();
-  alert("Don't try to copy content")
+  alert( "You are not an authorise person to check it")
+  
  });
  
  $(document).keydown(function(e){
@@ -77,3 +79,11 @@ $(document).bind("contextmenu",function(e) {
      }
  });
  
+
+
+/* !---preloader*/
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display="none";
+})

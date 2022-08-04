@@ -16,6 +16,17 @@
 </head>
 
 <body>
+
+  <!-- !--pre-loader -->
+<div id="preloader">
+  
+</div>
+
+
+
+
+
+
   <div class="scroll-up-btn">
     <i class="fas fa-angle-up"></i>
   </div>
@@ -29,6 +40,7 @@
         <li><a href="#about" class="menu-btn">About</a></li>
         <li><a href="#services" class="menu-btn">Services</a></li>
         <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#" class="menu-btn">Projects</a></li>
         <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
         <li><a href="#contact" class="menu-btn">Contact</a></li>
       </ul>
@@ -114,6 +126,7 @@
           <div class="text">My creative skills & expriences.</div>
           <p>I have done different projects. I used Tailwind CSS with  ReactJs also,i have knowledge in programming language like c++ ,c.Now i am learning Back-end web-development. I have little bit expriences in front-end web-development.</p>
           <a href="#">Read more</a>
+          <a href="#">My Projects</a>
         </div>
         <div class="column right">
           <div class="bars">
@@ -253,22 +266,23 @@
           </div>
         </div>
         <div class="column right">
-          <form action="https://formspree.io/f/xeqnvgkd" method="POST">
+          <form   action="https://formspree.io/f/xayvadab"
+          method="POST">
           <div class="text">Message me</div>
           <form action="#">
             <div class="fields">
               <div class="field name">
-                <input type="text" placeholder="Name" required>
+                <input type="text" name="name" placeholder="Name" id="name" autocomplete="off" required>
               </div>
               <div class="field email">
-                <input type="email" id="email" placeholder="Email" required>
+                <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" required>
               </div>
             </div>
             <div class="field">
-              <input type="text" placeholder="Subject" required>
+              <input type="text" placeholder="Subject" name="message" autocomplete="off"  required>
             </div>
             <div class="field textarea">
-              <textarea cols="30" rows="10" placeholder="Describe project.." required></textarea>
+              <textarea cols="30" rows="10" placeholder="Describe project.." name="message" required ></textarea>
             </div>
             <div class="button"><button type="" submit>
                 Send message
@@ -284,6 +298,16 @@
 <footer>
   <span>Created By <a href="#">Lakshyadeep Gogoi</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
 </footer>
+
+
+<!-- !--Alert -->
+
+<!-- <div class="alert alert-danger d-flex align-items-center" role="alert">
+  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+  <div>
+    An example danger alert with an icon
+  </div>
+</div> -->
 
 
   <script src="script.js"></script>

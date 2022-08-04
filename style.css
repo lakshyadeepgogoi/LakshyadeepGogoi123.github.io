@@ -113,9 +113,9 @@ html{
 
 .home {
   display: flex;
-  background: url("images/IMG_20220227_122947-01.jpeg") no-repeat center;
+  background: url("images/Lakshyadeep\ \(3\).png") no-repeat center;
   height: 100vh;
-  color: black;
+  color: yellow;
   min-height: 500px;
   font-family: "ubuntu", sans-serif;
 }
@@ -705,3 +705,25 @@ footer span a:hover{
     font-size: 27px;
   }
 }
+
+/* !preloader css */
+
+#preloader{
+  background: white url(images/circlegif.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+/* !---------------------------------------projects file */
+
+
+
