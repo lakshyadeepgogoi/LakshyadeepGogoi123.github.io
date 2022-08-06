@@ -184,7 +184,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;   
 }
 section .title::before {
   content: "";
@@ -717,13 +717,24 @@ footer span a:hover{
   z-index: 100;
 }
 
+/*!--------------alert------*/
+.contextmenu{
+  font-size:24px;
+  font-weight:bold;
+  color:white;
+  background-color:green;
+  padding:10px;
+  text-align:center;
+
+}
 
 
 
 
 
 
-/* !---------------------------------------projects file */
+
+
 
 
 

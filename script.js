@@ -69,6 +69,7 @@ $(document).ready(function () {
 
 $(document).bind("contextmenu",function(e) {
   e.preventDefault();
+  
   alert( "You are not an authorise person to check it")
   
  });
