@@ -1,12 +1,12 @@
 <div align = "center">
 
-<h1><a href="https://lakshyadeepgogoi.netlify.app/project.html">Projects</a></h1>
+<h1><a href="https://lakshyadeepgogoi.netlify.app/project.html">My-Portfolio</a></h1>
 
 
 <h3>Showcase My Portfolio 🛍️🎇</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="projects screenshot" style="width:100%">
+  <img src= "images/github.jpg" alt="projects screenshot" style="width:100%">
   <br/>
   <figcaption>projects screenshot</figcaption>
 </figure>
@@ -57,6 +57,6 @@ Hit the ⭐ button if you found this useful.
 
 <div align="center">
 
-<a href="https://github.com/lakshyadeepgogoi/LakshyadeepGogoi123">Source</a> | <a href="lakshyadeepgogoi.netlify.app">Website</a>
+<a href="https://github.com/lakshyadeepgogoi">Source</a> | <a href="lakshyadeepgogoi.netlify.app">Website</a>
 
 </div>
