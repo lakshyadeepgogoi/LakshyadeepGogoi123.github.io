@@ -113,7 +113,7 @@ html{
 
 .home {
   display: flex;
-  background: url("images/Lakshyadeep\ \(3\).png") no-repeat center;
+  background: url("https://source.unsplash.com/1920x1080/?nature") no-repeat center;
   height: 100vh;
   color: yellow;
   min-height: 500px;
